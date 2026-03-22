@@ -1,11 +1,11 @@
 {
-  "name": "My Site",
-  "short_name": "My Site",
-  "description": "A static site built with Next.js.",
+  "name": "Multi-Track Ticketing (m3t)",
+  "short_name": "m3t",
+  "description": "Free, open-source event management for complex multi-track events.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#171717",
+  "background_color": "#0c0a0d",
+  "theme_color": "#1a0a0f",
   "icons": [
     {
       "src": "/favicon-light.svg",
