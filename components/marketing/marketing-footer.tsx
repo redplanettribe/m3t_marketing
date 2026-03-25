@@ -9,8 +9,8 @@ export function MarketingFooter() {
     <footer className="border-t border-border bg-muted/30 py-12">
       <Container className="flex flex-col gap-8 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex items-center gap-3">
-          <Image src="/favicon-light.svg" alt="" width={32} height={32} className="size-8 dark:hidden" aria-hidden />
-          <Image src="/favicon-dark.svg" alt="" width={32} height={32} className="hidden size-8 dark:block" aria-hidden />
+          <Image src="/favicon-light-v2.svg" alt="" width={32} height={32} className="size-8 dark:hidden" aria-hidden />
+          <Image src="/favicon-dark-v2.svg" alt="" width={32} height={32} className="hidden size-8 dark:block" aria-hidden />
           <div>
             <p className="font-semibold text-foreground">{siteConfig.shortName}</p>
             <p className="text-sm text-muted-foreground">Multi-Track Ticketing</p>

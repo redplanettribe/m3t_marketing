@@ -49,13 +49,13 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/favicon-light.svg",
+        url: "/favicon-light-v2.svg",
         type: "image/svg+xml",
       },
     ],
     apple: [
       {
-        url: "/favicon-light.svg",
+        url: "/favicon-light-v2.svg",
         type: "image/svg+xml",
       },
     ],
