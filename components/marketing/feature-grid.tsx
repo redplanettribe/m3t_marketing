@@ -1,4 +1,4 @@
-import { Layers, Zap, BadgeCheck, Smartphone, Users } from "lucide-react"
+import { Gift, Layers, Zap, BadgeCheck, Smartphone, Users } from "lucide-react"
 import { Container } from "@/components/ui/container"
 import { Section } from "@/components/ui/section"
 import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -33,6 +33,12 @@ const features = [
     title: "On-device apps",
     description:
       "Organizer and attendee experiences on mobile, aligned with the same API and rules as your admin tools.",
+  },
+  {
+    icon: Gift,
+    title: "Async giveaways & inventory",
+    description:
+      "Run item giveaways on your own timeline, distribute wins without bottlenecks, and keep a clear record of who received what while the event is live.",
   },
 ] as const
 

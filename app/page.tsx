@@ -1,5 +1,6 @@
 import { generateSEO } from "@/lib/seo"
 import { FeatureGrid } from "@/components/marketing/feature-grid"
+import { DemoTeaserSection } from "@/components/marketing/demo-teaser-section"
 import { FoundationSection } from "@/components/marketing/foundation-section"
 import { MarketingFooter } from "@/components/marketing/marketing-footer"
 import { MarketingHero } from "@/components/marketing/marketing-hero"
@@ -23,6 +24,7 @@ export default function HomePage() {
     <main id="main-content">
       <MarketingHero />
       <FeatureGrid />
+      <DemoTeaserSection />
       <UseCasesSection />
       <OpenSourceSection />
       <FoundationSection />

@@ -31,6 +31,12 @@ const repos = [
     description: "React admin SPA for configuration, operations, and day-of control.",
     href: "https://github.com/redplanettribe/m3t_admin_fe",
   },
+  {
+    name: "gdg_bevy_tools",
+    role: "Bevy sync",
+    description: "Sync Google Developer Group event attendees with Bevy—built for chapter organizers moving data into Bevy.",
+    href: "https://github.com/redplanettribe/gdg_bevy_tools",
+  },
 ] as const
 
 export function OpenSourceSection() {
@@ -41,7 +47,7 @@ export function OpenSourceSection() {
           <div className="max-w-xl">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Fully open source</h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              Backend, mobile apps, and admin UI live in public repos under{" "}
+              Backend, mobile apps, admin UI, and related organizer utilities live in public repos under{" "}
               <span className="font-medium text-foreground">redplanettribe</span>. Self-host, extend, or contribute—no
               black box.
             </p>

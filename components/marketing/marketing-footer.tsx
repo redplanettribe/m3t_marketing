@@ -40,6 +40,12 @@ export function MarketingFooter() {
           >
             Features
           </a>
+          <a
+            href="/demos"
+            className="text-muted-foreground transition-colors hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+          >
+            Demos
+          </a>
         </nav>
       </Container>
       <Container className="mt-8 border-t border-border/60 pt-8">
