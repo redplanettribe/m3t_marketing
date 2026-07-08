@@ -8,9 +8,11 @@ const MOBILE_BAR_WIDTHS = ["w-[6.75rem]", "w-[7.25rem]", "w-[7.75rem]", "w-[8.25
 
 export function HeroJourneyStrip() {
   return (
-    <div className="mt-8">
-      <p className="text-xs font-semibold uppercase tracking-wide text-[var(--text-subtle)]">The loop</p>
-      <ol className="mt-3 flex flex-col sm:grid sm:grid-cols-5 sm:gap-2">
+    <div className="mb-6 mt-8 lg:mb-10 lg:mt-10">
+      <p className="text-left text-xs font-semibold uppercase tracking-wide text-[var(--text-subtle)] lg:text-center">
+        The loop
+      </p>
+      <ol className="mx-auto mt-5 flex w-fit flex-col sm:mx-0 sm:w-full sm:grid sm:grid-cols-5 sm:gap-2">
         {journey.map((step, idx) => (
           <li key={step}>
             {idx > 0 ? (

@@ -10,8 +10,8 @@ export function HeroSection() {
   return (
     <Section className="pt-10 lg:pt-14">
       <Container>
-        <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-12">
-          <div>
+        <div className="grid items-center gap-10 lg:grid-cols-2 lg:grid-rows-[auto_auto] lg:gap-12">
+          <div className="order-2 lg:order-none lg:col-start-1 lg:row-start-1">
             <p className="text-xs font-semibold uppercase tracking-wide text-[var(--text-subtle)]">
               Conference operations platform
             </p>
@@ -44,15 +44,17 @@ export function HeroSection() {
                 Contact sales
               </CTAButton>
             </div>
-
-            <HeroJourneyStrip />
           </div>
 
-          <div>
+          <div className="order-1 lg:order-none lg:col-start-2 lg:row-start-1">
             <HeroMedia className="aspect-[16/10]" />
             <p className="mt-3 text-sm text-[var(--text-subtle)]">
               Invite-only Dashboard. First success moment: create your event shell (name, dates, venue).
             </p>
+          </div>
+
+          <div className="order-3 lg:order-none lg:col-span-2 lg:row-start-2 lg:flex lg:justify-center">
+            <HeroJourneyStrip />
           </div>
         </div>
       </Container>
