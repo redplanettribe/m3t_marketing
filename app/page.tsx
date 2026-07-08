@@ -1,33 +1,38 @@
 import { generateSEO } from "@/lib/seo"
-import { FeatureGrid } from "@/components/marketing/feature-grid"
-import { DemoTeaserSection } from "@/components/marketing/demo-teaser-section"
-import { FoundationSection } from "@/components/marketing/foundation-section"
 import { MarketingFooter } from "@/components/marketing/marketing-footer"
-import { MarketingHero } from "@/components/marketing/marketing-hero"
-import { OpenSourceSection } from "@/components/marketing/open-source-section"
-import { UseCasesSection } from "@/components/marketing/use-cases-section"
+import { MarketingNav } from "@/components/marketing/marketing-nav"
+import { HeroSection } from "@/components/marketing/hero-section"
+import { JourneyLoopSection } from "@/components/marketing/journey-loop-section"
+import { AnalyticsLiveOpsSection } from "@/components/marketing/analytics-live-ops-section"
+import { IntegrationsSection } from "@/components/marketing/integrations-section"
+import { SocialProofSection } from "@/components/marketing/social-proof-section"
+import { GdgBandSection } from "@/components/marketing/gdg-band-section"
+import { FinalCtaSection } from "@/components/marketing/final-cta-section"
 
 export const metadata = generateSEO({
   description:
-    "Free, open-source event management: attendee flow control, multi-tier events, fast registration, virtual credentials, and native organizer & attendee apps.",
+    "All-in-one conference operations platform that replaces fragmented tools and improves attendee satisfaction end-to-end.",
   keywords: [
-    "multi-track ticketing",
-    "event registration",
-    "open source ticketing",
-    "Flutter event app",
-    "tiered event passes",
+    "conference operations platform",
+    "conference platform",
+    "event operations",
+    "attendee experience",
+    "event analytics",
+    "check-in analytics",
   ],
 })
 
 export default function HomePage() {
   return (
     <main id="main-content">
-      <MarketingHero />
-      <FeatureGrid />
-      <DemoTeaserSection />
-      <UseCasesSection />
-      <OpenSourceSection />
-      <FoundationSection />
+      <MarketingNav />
+      <HeroSection />
+      <JourneyLoopSection />
+      <AnalyticsLiveOpsSection />
+      <IntegrationsSection />
+      <SocialProofSection />
+      <GdgBandSection />
+      <FinalCtaSection />
       <MarketingFooter />
     </main>
   )

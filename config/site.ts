@@ -1,23 +1,25 @@
 export const siteConfig = {
-  name: "Multi-Track Ticketing (m3t)",
+  name: "m3t",
   shortName: "m3t",
   description:
-    "Free, open-source event management for complex multi-track events—flow control, tiered passes, fast registration, virtual credentials, and native apps.",
+    "All-in-one conference platform that replaces fragmented tools and improves attendee satisfaction end-to-end.",
   url: "https://multiticketing.com",
   ogImage: "/opengraph-image.png",
   keywords: [
-    "event ticketing",
-    "multi-track events",
-    "open source",
-    "event management",
-    "registration",
-    "virtual credentials",
+    "conference operations platform",
+    "conference platform",
+    "event operations",
+    "attendee experience",
+    "event analytics",
     "m3t",
     "multiticketing",
   ] as string[],
-  githubOrg: "https://github.com/orgs/redplanettribe/repositories?q=m3t",
-  foundationUrl: "https://redplanettribe.org/",
-  foundationName: "RedPlanetTribe",
-  managerUrl: "https://manager.multiticketing.com/",
-  managerCtaLabel: "Manage your event for free",
+
+  requestAccessUrl:
+    "https://docs.google.com/forms/d/e/1FAIpQLSeQzhcpcu4zrOnUuZeh2zBzhhnUB7QnJpMTpmMIRTn6-Buc1g/viewform?usp=publish-editor",
+
+  contactSalesUrl: "mailto:info@redplanettribe.org",
+  contactSalesLabel: "info@redplanettribe.org",
+
+  legalHubUrl: "https://legal.multiticketing.com/",
 }

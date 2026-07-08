@@ -1,11 +1,11 @@
 {
-  "name": "Multi-Track Ticketing (m3t)",
+  "name": "m3t",
   "short_name": "m3t",
-  "description": "Free, open-source event management for complex multi-track events.",
+  "description": "All-in-one conference operations platform for running and measuring attendee experience end-to-end.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0c0a0d",
-  "theme_color": "#1a0a0f",
+  "background_color": "#F7F8FA",
+  "theme_color": "#0E84C1",
   "icons": [
     {
       "src": "/favicon-light-v2.svg",
