@@ -8,7 +8,7 @@ import { CTAButton } from "@/components/ui/cta-button"
 
 export const metadata = generateSEO({
   title: "Contact",
-  description: "Contact sales to discuss conference operations, demo access, and invite-only Dashboard access.",
+  description: "Contact sales to discuss conference operations, demo access, and the Multiticketing dashboard.",
   url: "/contact",
   keywords: ["contact sales", "conference operations", "demo"],
 })
@@ -32,14 +32,8 @@ export default function ContactPage() {
               <CTAButton href={siteConfig.contactSalesUrl} variant="primary" size="lg">
                 Email {siteConfig.contactSalesLabel}
               </CTAButton>
-              <CTAButton
-                href={siteConfig.requestAccessUrl}
-                variant="outline"
-                size="lg"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Request access
+              <CTAButton href={siteConfig.dashboardUrl} variant="outline" size="lg">
+                Start
               </CTAButton>
             </div>
           </div>

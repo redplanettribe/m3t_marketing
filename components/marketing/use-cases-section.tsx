@@ -8,7 +8,7 @@ const cases = [
     icon: GitBranch,
     title: "Multi-track balance",
     description:
-      "When you run parallel tracks, m3t helps distribute attendees evenly so no room is empty while another overflows.",
+      "When you run parallel tracks, Multiticketing helps distribute attendees evenly so no room is empty while another overflows.",
   },
   {
     icon: Timer,

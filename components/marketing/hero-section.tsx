@@ -4,57 +4,58 @@ import { Section } from "@/components/ui/section"
 import { CTAButton } from "@/components/ui/cta-button"
 import { DemoModal } from "@/components/marketing/demo-modal"
 import { HeroMedia } from "@/components/marketing/hero-media"
-import { HeroJourneyStrip } from "@/components/marketing/hero-journey-strip"
 
 export function HeroSection() {
   return (
     <Section className="pt-10 lg:pt-14">
       <Container>
-        <div className="grid items-center gap-10 lg:grid-cols-2 lg:grid-rows-[auto_auto] lg:gap-12">
-          <div className="order-2 lg:order-none lg:col-start-1 lg:row-start-1">
-            <p className="text-xs font-semibold uppercase tracking-wide text-[var(--text-subtle)]">
-              Conference operations platform
-            </p>
-            <h1 className="mt-3 text-balance text-4xl font-semibold tracking-tight text-[var(--text)] sm:text-5xl lg:text-6xl">
-              Run the full attendee experience loop - and prove it worked.
-            </h1>
-            <p className="mt-5 text-pretty text-base text-[var(--text-muted)] sm:text-lg">
-              m3t replaces the Frankenstein stack of ticketing, forms, check-in tools, spreadsheets, and chat.
-              Operate and measure the experience end-to-end: register to analytics.
-            </p>
+        <div className="relative overflow-hidden rounded-[10px]">
+          <HeroMedia className="aspect-[4/5] w-full sm:aspect-[16/9] lg:aspect-[21/9]" />
 
-            <div className="mt-7 flex flex-col gap-3 sm:flex-row">
-              <DemoModal
-                trigger={
-                  <CTAButton variant="primary" size="lg">
-                    Watch demo
-                  </CTAButton>
-                }
-              />
-              <CTAButton
-                href={siteConfig.requestAccessUrl}
-                variant="outline"
-                size="lg"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Request access
-              </CTAButton>
-              <CTAButton href={siteConfig.contactSalesUrl} variant="ghost" size="lg">
-                Contact sales
-              </CTAButton>
+          <div
+            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/85 via-black/55 to-transparent sm:bg-gradient-to-r sm:from-black/85 sm:via-black/60 sm:to-transparent/0"
+            aria-hidden
+          />
+
+          <div className="absolute inset-0 flex items-end sm:items-center">
+            <div className="max-w-xl px-6 py-8 sm:px-10 sm:py-12 lg:px-12">
+              <p className="text-xs font-semibold uppercase tracking-wide text-white/70">
+                Tired of drowning in event admin?
+              </p>
+              <h1 className="mt-3 text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-6xl">
+                Organize events with the system you deserve.
+              </h1>
+              <p className="mt-5 text-pretty text-base text-white/80 sm:text-lg">
+                This is the conference operations platform that replaces your Frankenstein stack of ticketing,
+                forms, check-in tools, and spreadsheets - so event day stays low-stress, runs efficiently, and
+                reporting is effortless.
+              </p>
+
+              <div className="mt-7 flex flex-col gap-3 sm:flex-row">
+                <CTAButton href={siteConfig.dashboardUrl} variant="primary" size="lg">
+                  Start
+                </CTAButton>
+                <DemoModal
+                  trigger={
+                    <CTAButton
+                      variant="outline"
+                      size="lg"
+                      className="border-white/50 text-white hover:bg-white/10"
+                    >
+                      Watch demo
+                    </CTAButton>
+                  }
+                />
+                <CTAButton
+                  href="/contact"
+                  variant="ghost"
+                  size="lg"
+                  className="text-white/80 hover:bg-white/10 hover:text-white"
+                >
+                  Contact
+                </CTAButton>
+              </div>
             </div>
-          </div>
-
-          <div className="order-1 lg:order-none lg:col-start-2 lg:row-start-1">
-            <HeroMedia className="aspect-[16/10]" />
-            <p className="mt-3 text-sm text-[var(--text-subtle)]">
-              Invite-only Dashboard. First success moment: create your event shell (name, dates, venue).
-            </p>
-          </div>
-
-          <div className="order-3 lg:order-none lg:col-span-2 lg:row-start-2 lg:flex lg:justify-center">
-            <HeroJourneyStrip />
           </div>
         </div>
       </Container>

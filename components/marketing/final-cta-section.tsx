@@ -13,28 +13,22 @@ export function FinalCtaSection() {
             <div>
               <p className="text-xs font-semibold uppercase tracking-wide text-[var(--text-subtle)]">Next step</p>
               <h2 className="mt-3 text-balance text-3xl font-semibold tracking-tight text-[var(--text)] sm:text-4xl">
-                See the control tower, then request access.
+                See the control tower, then start building.
               </h2>
               <p className="mt-4 text-base text-[var(--text-muted)] sm:text-lg">
-                Demo - Request access - Dashboard (invite-only) - Create your event shell.
+                Watch a demo, then start building your event in minutes.
               </p>
             </div>
             <div className="flex flex-col gap-3 sm:flex-row sm:justify-end">
               <DemoModal
                 trigger={
-                  <CTAButton variant="primary" size="lg">
+                  <CTAButton variant="outline" size="lg">
                     Watch demo
                   </CTAButton>
                 }
               />
-              <CTAButton
-                href={siteConfig.requestAccessUrl}
-                variant="outline"
-                size="lg"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Request access
+              <CTAButton href={siteConfig.dashboardUrl} variant="primary" size="lg">
+                Start
               </CTAButton>
             </div>
           </div>

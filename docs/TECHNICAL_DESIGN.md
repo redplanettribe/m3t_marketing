@@ -1,6 +1,6 @@
-# Technical design for the m3t marketing website
+# Technical design for the Multiticketing marketing website
 
-This document specifies the target technology choices and the UI style system for the m3t marketing website redesign.
+This document specifies the target technology choices and the UI style system for the Multiticketing marketing website redesign.
 It is intended to be implementation-ready.
 
 This doc must remain consistent with `docs/BUSINESS_INTENT.md`.
@@ -223,7 +223,7 @@ Signature move:
 - Sticky.
 - Light background.
 - Hairline border appears after scrolling past hero.
-- Left: icon mark + graphite "m3t" wordmark.
+- Left: icon mark + graphite "Multiticketing" wordmark.
   - Do not use the white wordmark on the light canvas.
 - Right: nav links + CTAs.
   - Primary: Watch demo (filled brand blue).

@@ -27,7 +27,7 @@ export function HeroMedia({ className }: { className?: string }) {
         <div className="relative aspect-[16/10]">
           <Image
             src="/opengraph-image.png"
-            alt="m3t control tower and attendee journey"
+            alt="Multiticketing control tower and attendee journey"
             fill
             sizes="(min-width: 1024px) 560px, 100vw"
             className="object-cover"

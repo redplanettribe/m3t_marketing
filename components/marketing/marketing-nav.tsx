@@ -27,7 +27,7 @@ export function MarketingNav() {
       )}
     >
       <Container className="flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center gap-3" aria-label="m3t home">
+        <Link href="/" className="flex items-center gap-3" aria-label="Multiticketing home">
           <Image src="/favicon-light-v2.svg" alt="" width={28} height={28} aria-hidden />
           <span className="text-sm font-semibold tracking-tight text-[var(--text)]">{siteConfig.shortName}</span>
         </Link>
@@ -44,19 +44,13 @@ export function MarketingNav() {
         <div className="flex items-center gap-2">
           <DemoModal
             trigger={
-              <CTAButton variant="primary" size="default">
+              <CTAButton variant="outline" size="default">
                 Watch demo
               </CTAButton>
             }
           />
-          <CTAButton
-            href={siteConfig.requestAccessUrl}
-            variant="outline"
-            size="default"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Request access
+          <CTAButton href={siteConfig.dashboardUrl} variant="primary" size="default">
+            Start
           </CTAButton>
         </div>
       </Container>

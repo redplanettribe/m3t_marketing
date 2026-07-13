@@ -23,7 +23,7 @@ export default function PricingPage() {
               Enterprise, sales-led.
             </h1>
             <p className="mt-5 text-base text-[var(--text-muted)] sm:text-lg">
-              m3t is sold via negotiated enterprise contracts.
+              Multiticketing is sold via negotiated enterprise contracts.
               Pricing is tiered by per-event scope and attendee headcount.
             </p>
 

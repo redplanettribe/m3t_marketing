@@ -12,7 +12,7 @@ export function GdgBandSection() {
           </h2>
           <p className="mt-3 max-w-3xl text-base text-[var(--text-muted)]">
             This is an exception.
-            For professional conference producers, m3t is sold via negotiated enterprise contracts with tiered pricing
+            For professional conference producers, Multiticketing is sold via negotiated enterprise contracts with tiered pricing
             based on per-event and attendee headcount.
           </p>
         </div>

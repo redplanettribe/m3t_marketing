@@ -1,6 +1,6 @@
 export const siteConfig = {
-  name: "m3t",
-  shortName: "m3t",
+  name: "Multiticketing",
+  shortName: "Multiticketing",
   description:
     "All-in-one conference platform that replaces fragmented tools and improves attendee satisfaction end-to-end.",
   url: "https://multiticketing.com",
@@ -11,12 +11,10 @@ export const siteConfig = {
     "event operations",
     "attendee experience",
     "event analytics",
-    "m3t",
     "multiticketing",
   ] as string[],
 
-  requestAccessUrl:
-    "https://docs.google.com/forms/d/e/1FAIpQLSeQzhcpcu4zrOnUuZeh2zBzhhnUB7QnJpMTpmMIRTn6-Buc1g/viewform?usp=publish-editor",
+  dashboardUrl: "https://manager.multiticketing.com",
 
   contactSalesUrl: "mailto:info@redplanettribe.org",
   contactSalesLabel: "info@redplanettribe.org",

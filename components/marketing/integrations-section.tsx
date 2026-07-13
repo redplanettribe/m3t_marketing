@@ -12,7 +12,7 @@ export function IntegrationsSection() {
               Stop duct-taping tools together.
             </h2>
             <p className="mt-4 text-base text-[var(--text-muted)] sm:text-lg">
-              m3t replaces the Frankenstein stack - and it can still sit alongside ticketing-only tools when that’s the
+              Multiticketing replaces the Frankenstein stack - and it can still sit alongside ticketing-only tools when that’s the
               right move.
             </p>
           </div>

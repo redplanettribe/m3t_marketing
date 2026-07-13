@@ -22,7 +22,7 @@ export function DemoModal({
           </p>
         </div>
         <div className="px-6 pb-6 pt-4">
-          <YouTubeEmbed videoId={videoId} title="m3t full demo" className="rounded-[10px] shadow-sm" />
+          <YouTubeEmbed videoId={videoId} title="Multiticketing full demo" className="rounded-[10px] shadow-sm" />
         </div>
       </DialogContent>
     </Dialog>

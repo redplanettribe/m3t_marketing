@@ -1,12 +1,12 @@
 ---
 name: m3t-ui-coherence
 description: >
-  Enforce the m3t marketing site UI system from docs/TECHNICAL_DESIGN.md.
+  Enforce the Multiticketing marketing site UI system from docs/TECHNICAL_DESIGN.md.
   Use this whenever you design or change UI, Tailwind classes, CSS variables/tokens, layout, typography, navigation, hero, section bands, buttons, modal styling, or accessibility.
   This skill steers the agent toward a calm enterprise “control tower” aesthetic with consistent spacing, restrained motion, and token-driven colors.
 ---
 
-This skill encodes the UI direction for the m3t marketing website.
+This skill encodes the UI direction for the Multiticketing marketing website.
 Source of truth is `docs/TECHNICAL_DESIGN.md`.
 
 If you notice the implementation contradicts the technical design, prefer aligning the code to the technical design.
@@ -109,7 +109,7 @@ When adding a new section or component:
 - Sticky.
 - Light background.
 - Hairline border appears after scrolling past hero.
-- Left: icon mark + graphite “m3t” wordmark.
+- Left: icon mark + graphite “Multiticketing” wordmark.
   Do not use the white wordmark on the light canvas.
 - Right: nav links + CTAs with the specified hierarchy (see CTA skill).
 

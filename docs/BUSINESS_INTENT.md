@@ -1,13 +1,13 @@
-# Business intent for the m3t marketing website
+# Business intent for the Multiticketing marketing website
 
-This document defines the business intent and messaging constraints for the m3t marketing website.
+This document defines the business intent and messaging constraints for the Multiticketing marketing website.
 It is written for both humans and AI agents who will implement or modify the site.
 
 If you are editing the site and your change conflicts with this document, update this document first.
 
 ## Truth sentence (must remain true)
 
-m3t is an all-in-one conference platform that replaces fragmented tools and improves attendee satisfaction end-to-end.
+Multiticketing is an all-in-one conference platform that replaces fragmented tools and improves attendee satisfaction end-to-end.
 
 ## What this website is for
 
@@ -39,7 +39,7 @@ m3t is an all-in-one conference platform that replaces fragmented tools and impr
 - Category label to use prominently
   - Conference operations platform.
 - Brand name
-  - m3t.
+  - Multiticketing.
 - How to describe the suite
   - All-in-one conference platform.
   - Replaces the Frankenstein stack of ticketing, forms, check-in tools, spreadsheets, and chat.
@@ -56,7 +56,7 @@ m3t is an all-in-one conference platform that replaces fragmented tools and impr
 ## Analytics promise (this is "now", not "eventually")
 
 Analytics is part of the product's core value.
-This site should communicate that m3t provides all of the following.
+This site should communicate that Multiticketing provides all of the following.
 
 - Live ops
   - Check-in pace and operational bottlenecks.
@@ -71,7 +71,7 @@ This site should communicate that m3t provides all of the following.
 
 ## Integrations stance
 
-m3t replaces the Frankenstein stack, and it can integrate alongside ticketing-only tools.
+Multiticketing replaces the Frankenstein stack, and it can integrate alongside ticketing-only tools.
 The site should not force a "rip and replace everything" posture.
 
 - Ticketing-only examples to reference
@@ -86,7 +86,7 @@ The site should not force a "rip and replace everything" posture.
 - GDG chapters
   - Offered free worldwide.
   - This should be presented as a secondary band after the professional pitch.
-  - Do not let the GDG offer redefine m3t as a free community-only tool.
+  - Do not let the GDG offer redefine Multiticketing as a free community-only tool.
 
 ## Trust strategy (since we are not leading with free/open-source)
 

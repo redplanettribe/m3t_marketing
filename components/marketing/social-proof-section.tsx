@@ -51,7 +51,7 @@ export function SocialProofSection() {
           </h2>
           <p className="mt-4 text-base text-[var(--text-muted)] sm:text-lg">
             The fastest way to trust it is to see it.
-            Watch the demo, then request access to the invite-only Dashboard.
+            Watch the demo, then start building your event in the Dashboard.
           </p>
         </div>
 
@@ -61,7 +61,7 @@ export function SocialProofSection() {
           title="Dashboard and organizer app"
           caption="Analytics, check-in, sessions, and day-of ops - one system."
           imageSrc={MANAGEMENT_IMAGE}
-          imageAlt="m3t analytics dashboard and organizer mobile app on a desk"
+          imageAlt="Multiticketing analytics dashboard and organizer mobile app on a desk"
         />
 
         <ProductBeat
@@ -70,7 +70,7 @@ export function SocialProofSection() {
           title="What your attendees see"
           caption="Personal agenda, live sessions, and engagement - connected to your ops."
           imageSrc={ATTENDEE_IMAGE}
-          imageAlt="Attendee using the m3t mobile app at a conference"
+          imageAlt="Attendee using the Multiticketing mobile app at a conference"
         />
       </Container>
     </Section>

@@ -1,0 +1,3 @@
+# Open self-serve signup instead of invite-only request access
+
+The site previously gated the product behind a "Request access" Google Form, with copy across the hero, nav, final CTA, and contact page explicitly describing the Dashboard as invite-only. We decided to open the Dashboard for self-serve signup: the primary CTA is now "Start," linking directly to manager.multiticketing.com, where anyone can create an account. This removes the manual approval step from the funnel, so all "invite-only" and "Request access" language was removed from marketing copy to avoid promising a gate that no longer exists.
