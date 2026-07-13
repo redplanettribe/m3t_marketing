@@ -29,7 +29,7 @@ export function generateSEO({
 }: SEOProps): Metadata {
   const seoTitle = title ? `${title} | ${siteConfig.name}` : siteConfig.name
   const seoUrl = `${siteConfig.url}/${locale}${path}`
-  const allKeywords = [...siteConfig.keywords, ...keywords]
+  const allKeywords = [...(siteConfig.keywordsByLocale[locale] ?? siteConfig.keywords), ...keywords]
 
   return {
     title: seoTitle,

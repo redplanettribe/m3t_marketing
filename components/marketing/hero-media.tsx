@@ -26,7 +26,7 @@ export function HeroMedia({ className }: { className?: string }) {
   return (
     <div className={cn("relative overflow-hidden rounded-[10px] border border-[var(--border)] bg-[var(--surface)]", className)}>
       {reducedMotion ? (
-        <div className="relative aspect-[16/10]">
+        <div className="relative h-full w-full">
           <Image
             src="/opengraph-image.png"
             alt={t("imageAlt")}

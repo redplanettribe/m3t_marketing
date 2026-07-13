@@ -71,12 +71,12 @@ export function MarketingNav() {
           </nav>
           <DemoModal
             trigger={
-              <CTAButton variant="outline" size="default">
+              <CTAButton variant="outline" size="default" className="hidden md:inline-flex">
                 {t("watchDemo")}
               </CTAButton>
             }
           />
-          <CTAButton href={siteConfig.dashboardUrl} variant="primary" size="default">
+          <CTAButton href={siteConfig.dashboardUrl} variant="primary" size="default" className="hidden md:inline-flex">
             {t("start")}
           </CTAButton>
         </div>

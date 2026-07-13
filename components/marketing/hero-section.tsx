@@ -13,15 +13,15 @@ export function HeroSection() {
   return (
     <Section className="pt-10 lg:pt-14">
       <Container>
-        <div className="relative overflow-hidden rounded-[10px]">
-          <HeroMedia className="aspect-[4/5] w-full sm:aspect-[16/9] lg:aspect-[21/9]" />
+        <div className="relative overflow-hidden rounded-[10px] min-h-[520px] sm:min-h-[420px] lg:min-h-[480px]">
+          <HeroMedia className="absolute inset-0 h-full w-full" />
 
           <div
             className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/85 via-black/55 to-transparent sm:bg-gradient-to-r sm:from-black/85 sm:via-black/60 sm:to-transparent/0"
             aria-hidden
           />
 
-          <div className="absolute inset-0 flex items-end sm:items-center">
+          <div className="relative flex min-h-[520px] items-end sm:min-h-[420px] sm:items-center lg:min-h-[480px]">
             <div className="max-w-xl px-6 py-8 sm:px-10 sm:py-12 lg:px-12">
               <p className="text-xs font-semibold uppercase tracking-wide text-white/70">{t("eyebrow")}</p>
               <h1 className="mt-3 text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-6xl">

@@ -21,15 +21,9 @@ export async function generateMetadata({
 
   return generateSEO({
     locale,
+    title: t("title"),
     description: t("description"),
-    keywords: [
-      "conference operations platform",
-      "conference platform",
-      "event operations",
-      "attendee experience",
-      "event analytics",
-      "check-in analytics",
-    ],
+    keywords: t.raw("keywords") as string[],
   })
 }
 

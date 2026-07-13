@@ -21,7 +21,16 @@
   },
   "Home": {
     "meta": {
-      "description": "All-in-one conference operations platform that replaces fragmented tools and improves attendee satisfaction end-to-end"
+      "title": "Conference Operations Platform",
+      "description": "All-in-one conference operations platform that replaces fragmented tools and improves attendee satisfaction end-to-end",
+      "keywords": [
+        "conference operations platform",
+        "conference platform",
+        "event operations",
+        "attendee experience",
+        "event analytics",
+        "check-in analytics"
+      ]
     },
     "hero": {
       "eyebrow": "Tired of drowning in event admin?",

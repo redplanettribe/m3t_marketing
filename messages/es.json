@@ -21,7 +21,16 @@
   },
   "Home": {
     "meta": {
-      "description": "Plataforma de operaciones para congresos todo en uno que sustituye herramientas fragmentadas y mejora la satisfacción del asistente de principio a fin"
+      "title": "Plataforma de Operaciones para Congresos",
+      "description": "Plataforma de operaciones para congresos todo en uno que sustituye herramientas fragmentadas y mejora la satisfacción del asistente de principio a fin",
+      "keywords": [
+        "plataforma de operaciones para congresos",
+        "software para gestión de congresos",
+        "gestión de operaciones de eventos",
+        "experiencia del asistente",
+        "análisis de eventos",
+        "control de acceso y check-in"
+      ]
     },
     "hero": {
       "eyebrow": "¿Ahogado en la gestión de tu evento?",
