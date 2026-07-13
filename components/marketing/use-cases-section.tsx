@@ -8,19 +8,19 @@ const cases = [
     icon: GitBranch,
     title: "Multi-track balance",
     description:
-      "When you run parallel tracks, Multiticketing helps distribute attendees evenly so no room is empty while another overflows.",
+      "When you run parallel tracks, Multiticketing helps distribute attendees evenly so no room is empty while another overflows",
   },
   {
     icon: Timer,
     title: "High-pressure registration",
     description:
-      "Ideal for launches and on-sale moments when speed and reliability matter more than fancy form fields.",
+      "Ideal for launches and on-sale moments when speed and reliability matter more than fancy form fields",
   },
   {
     icon: Ticket,
     title: "Tiered passes and perks",
     description:
-      "Sell or grant different access levels—swag, lounges, workshops—tied to the pass someone actually holds.",
+      "Sell or grant different access levels—swag, lounges, workshops—tied to the pass someone actually holds",
   },
 ] as const
 

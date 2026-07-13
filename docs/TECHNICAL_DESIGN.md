@@ -298,7 +298,7 @@ Tertiary (Contact sales):
 
 - Present as a separate band after the professional pitch.
 - Copy is clear that it is an exception.
-  - "GDG chapters offered free worldwide."
+  - "GDG chapters offered free worldwide"
 - Do not let this redefine the product as free/community-first.
 
 ### Footer

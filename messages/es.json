@@ -16,17 +16,17 @@
   "DemoModal": {
     "ariaLabel": "Video de la demo",
     "title": "Demo del producto",
-    "description": "Un recorrido rápido por la experiencia del asistente y la torre de control del organizador.",
+    "description": "Un recorrido rápido por la experiencia del asistente y la torre de control del organizador",
     "videoTitle": "Demo completa de Multiticketing"
   },
   "Home": {
     "meta": {
-      "description": "Plataforma de operaciones para congresos todo en uno que sustituye herramientas fragmentadas y mejora la satisfacción del asistente de principio a fin."
+      "description": "Plataforma de operaciones para congresos todo en uno que sustituye herramientas fragmentadas y mejora la satisfacción del asistente de principio a fin"
     },
     "hero": {
       "eyebrow": "¿Ahogado en la gestión de tu evento?",
-      "headline": "Organiza eventos con el sistema que mereces.",
-      "subhead": "Esta es la plataforma de operaciones para congresos que sustituye tu maraña de herramientas de ticketing, formularios, check-in y hojas de cálculo, para que el día del evento sea tranquilo, eficiente y los informes salgan solos.",
+      "headline": "Organiza eventos con el sistema que mereces",
+      "subhead": "Esta es la plataforma de operaciones para congresos que sustituye tu maraña de herramientas de ticketing, formularios, check-in y hojas de cálculo, para que el día del evento sea tranquilo, eficiente y los informes salgan solos",
       "start": "Empezar",
       "watchDemo": "Ver demo",
       "contact": "Contacto",
@@ -35,24 +35,24 @@
     },
     "problems": {
       "eyebrow": "Organizar eventos hoy",
-      "headline": "Una maraña de herramientas significa una montaña de gestión.",
-      "subhead": "Sin un sistema pensado para ello, organizar eventos de forma recurrente significa resolver los mismos problemas una y otra vez.",
+      "headline": "Una maraña de herramientas significa una montaña de gestión",
+      "subhead": "Sin un sistema pensado para ello, organizar eventos de forma recurrente significa resolver los mismos problemas una y otra vez",
       "items": [
         {
           "title": "Colas en cada punto de contacto",
-          "description": "Check-in, entrega de material, inscripción a sesiones: todo lo que se gestiona en persona o en papel se convierte en un cuello de botella y una fila de asistentes frustrados."
+          "description": "Check-in, entrega de material, inscripción a sesiones: todo lo que se gestiona en persona o en papel se convierte en un cuello de botella y una fila de asistentes frustrados"
         },
         {
           "title": "El personal no llega a toda la multitud",
-          "description": "Avisar de boca en boca o por walkie-talkie solo llega a unos pocos, nunca a los asistentes que realmente necesitaban escucharlo."
+          "description": "Avisar de boca en boca o por walkie-talkie solo llega a unos pocos, nunca a los asistentes que realmente necesitaban escucharlo"
         },
         {
           "title": "Los informes son arqueología manual",
-          "description": "Demostrar el valor a patrocinadores e interesados implica rebuscar en hojas de cálculo y notas después del evento, en lugar de extraer datos que ya se venían registrando."
+          "description": "Demostrar el valor a patrocinadores e interesados implica rebuscar en hojas de cálculo y notas después del evento, en lugar de extraer datos que ya se venían registrando"
         },
         {
           "title": "Networking que nadie puede medir",
-          "description": "Las actividades de networking son difíciles de organizar, llegan solo a una fracción de los asistentes y no dejan forma de comprobar si funcionaron."
+          "description": "Las actividades de networking son difíciles de organizar, llegan solo a una fracción de los asistentes y no dejan forma de comprobar si funcionaron"
         }
       ]
     },
@@ -60,49 +60,49 @@
       "badge": "La solución",
       "headlinePrefix": "Creamos la plataforma de operaciones para congresos que cambia el caos por",
       "headlineHighlight": "calma",
-      "subhead": "Un solo sistema para un día de evento tranquilo y eficiente, con analítica que redacta tus informes por ti en lugar de al revés."
+      "subhead": "Un solo sistema para un día de evento tranquilo y eficiente, con analítica que redacta tus informes por ti en lugar de al revés"
     },
     "productHighlights": {
       "eyebrow": "Qué incluye",
-      "headline": "Todo lo que necesita una torre de control.",
+      "headline": "Todo lo que necesita una torre de control",
       "learnMore": "Saber más",
       "items": [
         {
           "heading": "Entrega merchandising sin caos",
-          "subheading": "Escanea un código QR para entregar cualquier cosa, en cualquier momento: sin colas, sin duplicados, sin perder de vista qué se entregó.",
+          "subheading": "Escanea un código QR para entregar cualquier cosa, en cualquier momento: sin colas, sin duplicados, sin perder de vista qué se entregó",
           "imageAlt": "Captura del sistema de entregas"
         },
         {
           "heading": "Deja que los asistentes creen su propia agenda",
-          "subheading": "Los asistentes reservan y cancelan sesiones en tiempo real, así se llena cada plaza y nadie se queda sin saber adónde ir.",
+          "subheading": "Los asistentes reservan y cancelan sesiones en tiempo real, así se llena cada plaza y nadie se queda sin saber adónde ir",
           "imageAlt": "Captura del sistema de reserva de sesiones"
         },
         {
           "heading": "Llega a todos, no solo a quien encuentres",
-          "subheading": "El chat y los avisos instantáneos mantienen a cada asistente informado, sin que el personal tenga que ir corriendo de un lado a otro.",
+          "subheading": "El chat y los avisos instantáneos mantienen a cada asistente informado, sin que el personal tenga que ir corriendo de un lado a otro",
           "imageAlt": "Captura del chat y los avisos"
         },
         {
           "heading": "Demuestra el valor para patrocinadores automáticamente",
-          "subheading": "Los stands virtuales capturan cada interacción y los informes se generan solos, sin recopilación manual.",
+          "subheading": "Los stands virtuales capturan cada interacción y los informes se generan solos, sin recopilación manual",
           "imageAlt": "Captura de interacciones e informes de patrocinadores"
         },
         {
           "heading": "Haz que el networking pase de verdad",
-          "subheading": "Un espacio de descubrimiento conecta a los asistentes con las personas adecuadas, y cada interacción queda registrada por ti.",
+          "subheading": "Un espacio de descubrimiento conecta a los asistentes con las personas adecuadas, y cada interacción queda registrada por ti",
           "imageAlt": "Captura de networking y descubrimiento"
         },
         {
           "heading": "El impacto de todo tu año, a un clic",
-          "subheading": "Agrupa automáticamente todos tus eventos en un informe de impacto instantáneo para toda la organización.",
+          "subheading": "Agrupa automáticamente todos tus eventos en un informe de impacto instantáneo para toda la organización",
           "imageAlt": "Captura del informe automático de impacto de la organización"
         }
       ]
     },
     "finalCta": {
       "eyebrow": "Siguiente paso",
-      "headline": "Ve la torre de control y luego empieza a construir.",
-      "subhead": "Mira una demo y luego empieza a montar tu evento en minutos.",
+      "headline": "Ve la torre de control y luego empieza a construir",
+      "subhead": "Mira una demo y luego empieza a montar tu evento en minutos",
       "watchDemo": "Ver demo",
       "start": "Empezar"
     }
@@ -110,28 +110,28 @@
   "Pricing": {
     "meta": {
       "title": "Precios",
-      "description": "Precios empresariales para organizadores profesionales de congresos. Escalonados por evento y número de asistentes."
+      "description": "Precios empresariales para organizadores profesionales de congresos. Escalonados por evento y número de asistentes"
     },
     "eyebrow": "Precios",
-    "headline": "Empresarial, con equipo comercial.",
-    "subhead": "Multiticketing se vende mediante contratos empresariales negociados. Los precios se escalonan según el alcance de cada evento y el número de asistentes.",
+    "headline": "Empresarial, con equipo comercial",
+    "subhead": "Multiticketing se vende mediante contratos empresariales negociados. Los precios se escalonan según el alcance de cada evento y el número de asistentes",
     "professional": {
       "title": "Congresos profesionales",
-      "description": "Pensado para equipos que sufren herramientas fragmentadas y necesitan un sistema operativo de principio a fin."
+      "description": "Pensado para equipos que sufren herramientas fragmentadas y necesitan un sistema operativo de principio a fin"
     },
     "gdg": {
       "title": "Capítulos de GDG",
-      "description": "Se ofrece gratis en todo el mundo como programa secundario. No define el modelo comercial principal."
+      "description": "Se ofrece gratis en todo el mundo como programa secundario. No define el modelo comercial principal"
     }
   },
   "Contact": {
     "meta": {
       "title": "Contacto",
-      "description": "Contacta con ventas para hablar de operaciones de congresos, acceso a la demo y el panel de Multiticketing."
+      "description": "Contacta con ventas para hablar de operaciones de congresos, acceso a la demo y el panel de Multiticketing"
     },
     "eyebrow": "Contacto de ventas",
-    "headline": "Hablemos de tu próximo evento.",
-    "subhead": "Escríbenos con un resumen rápido de tu congreso, plazos y puntos de dolor operativos.",
+    "headline": "Hablemos de tu próximo evento",
+    "subhead": "Escríbenos con un resumen rápido de tu congreso, plazos y puntos de dolor operativos",
     "emailCta": "Escribir a {email}",
     "start": "Empezar"
   }

@@ -16,17 +16,17 @@
   "DemoModal": {
     "ariaLabel": "Demo video",
     "title": "Product demo",
-    "description": "A quick walkthrough of the attendee experience loop and the operator control tower.",
+    "description": "A quick walkthrough of the attendee experience loop and the operator control tower",
     "videoTitle": "Multiticketing full demo"
   },
   "Home": {
     "meta": {
-      "description": "All-in-one conference operations platform that replaces fragmented tools and improves attendee satisfaction end-to-end."
+      "description": "All-in-one conference operations platform that replaces fragmented tools and improves attendee satisfaction end-to-end"
     },
     "hero": {
       "eyebrow": "Tired of drowning in event admin?",
-      "headline": "Organize events with the system you deserve.",
-      "subhead": "This is the conference operations platform that replaces your Frankenstein stack of ticketing, forms, check-in tools, and spreadsheets - so event day stays low-stress, runs efficiently, and reporting is effortless.",
+      "headline": "Organize events with the system you deserve",
+      "subhead": "This is the conference operations platform that replaces your Frankenstein stack of ticketing, forms, check-in tools, and spreadsheets - so event day stays low-stress, runs efficiently, and reporting is effortless",
       "start": "Start",
       "watchDemo": "Watch demo",
       "contact": "Contact",
@@ -35,24 +35,24 @@
     },
     "problems": {
       "eyebrow": "Running events today",
-      "headline": "A frankenstein of tools means a mountain of admin.",
-      "subhead": "Without a system built for it, running an event on a regular basis means re-solving the same problems every single time.",
+      "headline": "A frankenstein of tools means a mountain of admin",
+      "subhead": "Without a system built for it, running an event on a regular basis means re-solving the same problems every single time",
       "items": [
         {
           "title": "Queues at every touchpoint",
-          "description": "Check-in, deliverables, session sign-ups - anything handled in person or on paper turns into a bottleneck and a line of frustrated attendees."
+          "description": "Check-in, deliverables, session sign-ups - anything handled in person or on paper turns into a bottleneck and a line of frustrated attendees"
         },
         {
           "title": "Staff can't reach a crowd",
-          "description": "Herding people by word of mouth and walkie-talkie only ever reaches a few - never the attendees who actually needed to hear it."
+          "description": "Herding people by word of mouth and walkie-talkie only ever reaches a few - never the attendees who actually needed to hear it"
         },
         {
           "title": "Reporting is manual archaeology",
-          "description": "Proving value to sponsors and stakeholders means digging through spreadsheets and notes after the fact, instead of pulling numbers that were tracked all along."
+          "description": "Proving value to sponsors and stakeholders means digging through spreadsheets and notes after the fact, instead of pulling numbers that were tracked all along"
         },
         {
           "title": "Networking nobody can measure",
-          "description": "Networking activities are hard to organize, reach a fraction of attendees, and leave no way to show whether any of it actually worked."
+          "description": "Networking activities are hard to organize, reach a fraction of attendees, and leave no way to show whether any of it actually worked"
         }
       ]
     },
@@ -60,49 +60,49 @@
       "badge": "The fix",
       "headlinePrefix": "We built the conference operations platform that trades chaos for",
       "headlineHighlight": "calm",
-      "subhead": "One system for a low-stress, high-efficiency event day - with analytics that write your reports for you instead of the other way around."
+      "subhead": "One system for a low-stress, high-efficiency event day - with analytics that write your reports for you instead of the other way around"
     },
     "productHighlights": {
       "eyebrow": "What's inside",
-      "headline": "Everything a control tower needs.",
+      "headline": "Everything a control tower needs",
       "learnMore": "Learn more",
       "items": [
         {
           "heading": "Hand out swag without the chaos",
-          "subheading": "Scan a QR code to deliver anything, anytime — no lines, no duplicates, no lost track of what went out.",
+          "subheading": "Scan a QR code to deliver anything, anytime — no lines, no duplicates, no lost track of what went out",
           "imageAlt": "Deliverable system screenshot"
         },
         {
           "heading": "Let attendees build their own agenda",
-          "subheading": "Attendees book and cancel sessions in real time, so every seat fills and no one's left guessing where to go.",
+          "subheading": "Attendees book and cancel sessions in real time, so every seat fills and no one's left guessing where to go",
           "imageAlt": "Session booking system screenshot"
         },
         {
           "heading": "Reach everyone, not just who you can find",
-          "subheading": "Chat and instant announcements keep every attendee in the loop — no staff running laps required.",
+          "subheading": "Chat and instant announcements keep every attendee in the loop — no staff running laps required",
           "imageAlt": "Chat and announcements screenshot"
         },
         {
           "heading": "Prove sponsor value automatically",
-          "subheading": "Virtual booths capture every interaction, and reports build themselves — no manual compiling.",
+          "subheading": "Virtual booths capture every interaction, and reports build themselves — no manual compiling",
           "imageAlt": "Sponsor interactions and reports screenshot"
         },
         {
           "heading": "Make networking actually happen",
-          "subheading": "A discoverability hub connects attendees to the right people, and every interaction is tracked for you.",
+          "subheading": "A discoverability hub connects attendees to the right people, and every interaction is tracked for you",
           "imageAlt": "Networking and discoverability screenshot"
         },
         {
           "heading": "Your whole year's impact, one click away",
-          "subheading": "Automatically roll up every event into one instant org-wide impact report.",
+          "subheading": "Automatically roll up every event into one instant org-wide impact report",
           "imageAlt": "Automatic org impact report screenshot"
         }
       ]
     },
     "finalCta": {
       "eyebrow": "Next step",
-      "headline": "See the control tower, then start building.",
-      "subhead": "Watch a demo, then start building your event in minutes.",
+      "headline": "See the control tower, then start building",
+      "subhead": "Watch a demo, then start building your event in minutes",
       "watchDemo": "Watch demo",
       "start": "Start"
     }
@@ -110,28 +110,28 @@
   "Pricing": {
     "meta": {
       "title": "Pricing",
-      "description": "Enterprise pricing for professional conference producers. Tiered per event and attendee headcount."
+      "description": "Enterprise pricing for professional conference producers. Tiered per event and attendee headcount"
     },
     "eyebrow": "Pricing",
-    "headline": "Enterprise, sales-led.",
-    "subhead": "Multiticketing is sold via negotiated enterprise contracts. Pricing is tiered by per-event scope and attendee headcount.",
+    "headline": "Enterprise, sales-led",
+    "subhead": "Multiticketing is sold via negotiated enterprise contracts. Pricing is tiered by per-event scope and attendee headcount",
     "professional": {
       "title": "Professional conferences",
-      "description": "Designed for teams that feel the pain of fragmented tools and need an end-to-end operating system."
+      "description": "Designed for teams that feel the pain of fragmented tools and need an end-to-end operating system"
     },
     "gdg": {
       "title": "GDG chapters",
-      "description": "Offered free worldwide as a secondary program. It does not define the primary commercial model."
+      "description": "Offered free worldwide as a secondary program. It does not define the primary commercial model"
     }
   },
   "Contact": {
     "meta": {
       "title": "Contact",
-      "description": "Contact sales to discuss conference operations, demo access, and the Multiticketing dashboard."
+      "description": "Contact sales to discuss conference operations, demo access, and the Multiticketing dashboard"
     },
     "eyebrow": "Contact sales",
-    "headline": "Let's talk about your next event.",
-    "subhead": "Email us with a quick overview of your conference, timeline, and operational pain points.",
+    "headline": "Let's talk about your next event",
+    "subhead": "Email us with a quick overview of your conference, timeline, and operational pain points",
     "emailCta": "Email {email}",
     "start": "Start"
   }

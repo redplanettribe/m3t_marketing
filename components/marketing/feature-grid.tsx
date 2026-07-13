@@ -8,37 +8,37 @@ const features = [
     icon: Users,
     title: "Attendee flow control",
     description:
-      "Guide how people move between tracks and sessions so venues stay balanced and every experience stays on schedule.",
+      "Guide how people move between tracks and sessions so venues stay balanced and every experience stays on schedule",
   },
   {
     icon: Layers,
     title: "Multi-tiered events",
     description:
-      "Model passes, tracks, and access levels in one system—perfect for conferences with VIP areas, workshops, or parallel agendas.",
+      "Model passes, tracks, and access levels in one system—perfect for conferences with VIP areas, workshops, or parallel agendas",
   },
   {
     icon: Zap,
     title: "Extremely fast registration",
     description:
-      "Built for moments when hundreds register at once: minimal friction from signup to confirmed seat.",
+      "Built for moments when hundreds register at once: minimal friction from signup to confirmed seat",
   },
   {
     icon: BadgeCheck,
     title: "Virtual credentials",
     description:
-      "Issue and verify digital passes so staff can validate access without paper chaos—online or at the door.",
+      "Issue and verify digital passes so staff can validate access without paper chaos—online or at the door",
   },
   {
     icon: Smartphone,
     title: "On-device apps",
     description:
-      "Organizer and attendee experiences on mobile, aligned with the same API and rules as your admin tools.",
+      "Organizer and attendee experiences on mobile, aligned with the same API and rules as your admin tools",
   },
   {
     icon: Gift,
     title: "Async giveaways & inventory",
     description:
-      "Run item giveaways on your own timeline, distribute wins without bottlenecks, and keep a clear record of who received what while the event is live.",
+      "Run item giveaways on your own timeline, distribute wins without bottlenecks, and keep a clear record of who received what while the event is live",
   },
 ] as const
 

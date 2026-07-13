@@ -4,19 +4,19 @@ import { Section } from "@/components/ui/section"
 const bullets = [
   {
     title: "Live ops",
-    items: ["Check-in pace and operational bottlenecks.", "Track and room utilization."],
+    items: ["Check-in pace and operational bottlenecks", "Track and room utilization"],
   },
   {
     title: "Attendee experience quality",
-    items: ["Session feedback and satisfaction signals.", "Engagement and participation indicators."],
+    items: ["Session feedback and satisfaction signals", "Engagement and participation indicators"],
   },
   {
     title: "Program planning",
-    items: ["Know what to keep, cut, and schedule differently next time."],
+    items: ["Know what to keep, cut, and schedule differently next time"],
   },
   {
     title: "Stakeholder and sponsor reporting",
-    items: ["Outcome reporting that is credible without custom spreadsheet work."],
+    items: ["Outcome reporting that is credible without custom spreadsheet work"],
   },
 ] as const
 

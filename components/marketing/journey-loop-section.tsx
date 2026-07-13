@@ -4,23 +4,23 @@ import { Section } from "@/components/ui/section"
 const steps = [
   {
     title: "Register",
-    description: "Fast registration that handles spikes without turning into a support incident.",
+    description: "Fast registration that handles spikes without turning into a support incident",
   },
   {
     title: "Personal agenda",
-    description: "Attendees build their schedule and discover what matters to them across tracks.",
+    description: "Attendees build their schedule and discover what matters to them across tracks",
   },
   {
     title: "Interact",
-    description: "Participation signals across sessions and spaces - not just a badge scan.",
+    description: "Participation signals across sessions and spaces - not just a badge scan",
   },
   {
     title: "Feedback",
-    description: "Session feedback that captures experience quality while the event is still live.",
+    description: "Session feedback that captures experience quality while the event is still live",
   },
   {
     title: "Analytics",
-    description: "A control-tower view that connects ops, experience, and reporting in one system.",
+    description: "A control-tower view that connects ops, experience, and reporting in one system",
   },
 ] as const
 

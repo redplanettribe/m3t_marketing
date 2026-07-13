@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Multiticketing",
   shortName: "Multiticketing",
   description:
-    "All-in-one conference platform that replaces fragmented tools and improves attendee satisfaction end-to-end.",
+    "All-in-one conference platform that replaces fragmented tools and improves attendee satisfaction end-to-end",
   url: "https://multiticketing.com",
   ogImage: "/opengraph-image.png",
   keywords: [

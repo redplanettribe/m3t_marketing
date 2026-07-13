@@ -1,7 +1,7 @@
 {
   "name": "Multiticketing",
   "short_name": "Multiticketing",
-  "description": "All-in-one conference operations platform for running and measuring attendee experience end-to-end.",
+  "description": "All-in-one conference operations platform for running and measuring attendee experience end-to-end",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#F7F8FA",

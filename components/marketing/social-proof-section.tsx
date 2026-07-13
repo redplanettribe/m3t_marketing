@@ -59,7 +59,7 @@ export function SocialProofSection() {
           className="mt-12 lg:mt-16"
           eyebrow="For organizers"
           title="Dashboard and organizer app"
-          caption="Analytics, check-in, sessions, and day-of ops - one system."
+          caption="Analytics, check-in, sessions, and day-of ops - one system"
           imageSrc={MANAGEMENT_IMAGE}
           imageAlt="Multiticketing analytics dashboard and organizer mobile app on a desk"
         />
@@ -68,7 +68,7 @@ export function SocialProofSection() {
           className="mt-16 lg:mt-20"
           eyebrow="For attendees"
           title="What your attendees see"
-          caption="Personal agenda, live sessions, and engagement - connected to your ops."
+          caption="Personal agenda, live sessions, and engagement - connected to your ops"
           imageSrc={ATTENDEE_IMAGE}
           imageAlt="Attendee using the Multiticketing mobile app at a conference"
         />
