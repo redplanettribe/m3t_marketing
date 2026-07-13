@@ -14,7 +14,7 @@ export function SolutionIntroSection() {
               {t("badge")}
             </span>
             <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-[var(--text)] sm:text-4xl lg:text-5xl">
-              {t("headlinePrefix")} <span className="text-[var(--brand)]">{t("headlineHighlight")}</span>.
+              {t("headlinePrefix")} <span className="text-[var(--brand)]">{t("headlineHighlight")}</span>
             </h2>
             <p className="mt-4 text-base text-[var(--text-muted)] sm:text-lg">{t("subhead")}</p>
           </div>
