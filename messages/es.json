@@ -34,7 +34,7 @@
     },
     "hero": {
       "eyebrow": "¿Ahogado en la gestión de tu evento?",
-      "headline": "Organiza eventos con el sistema que mereces",
+      "headline": "El sistema de organización de eventos que mereces",
       "subhead": "Esta es la plataforma de operaciones para congresos que sustituye tu maraña de herramientas de ticketing, formularios, check-in y hojas de cálculo, para que el día del evento sea tranquilo, eficiente y los informes salgan solos",
       "start": "Empezar",
       "watchDemo": "Ver demo",
@@ -69,7 +69,7 @@
       "badge": "La solución",
       "headlinePrefix": "Creamos la plataforma de operaciones para congresos que cambia el caos por",
       "headlineHighlight": "calma",
-      "subhead": "Un solo sistema para un día de evento tranquilo y eficiente, con analítica que redacta tus informes por ti en lugar de al revés"
+      "subhead": "Un sistema de organización de eventos para un día tranquilo y eficiente, con analítica que redacta tus informes por ti en lugar de al revés"
     },
     "productHighlights": {
       "eyebrow": "Qué incluye",
@@ -119,7 +119,8 @@
   "Pricing": {
     "meta": {
       "title": "Precios",
-      "description": "Precios empresariales para organizadores profesionales de congresos. Escalonados por evento y número de asistentes"
+      "description": "Precios empresariales para organizadores profesionales de congresos. Escalonados por evento y número de asistentes",
+      "keywords": ["precios para congresos", "precios empresariales", "precios de plataforma de eventos"]
     },
     "eyebrow": "Precios",
     "headline": "Empresarial, con equipo comercial",
@@ -136,7 +137,8 @@
   "Contact": {
     "meta": {
       "title": "Contacto",
-      "description": "Contacta con ventas para hablar de operaciones de congresos, acceso a la demo y el panel de Multiticketing"
+      "description": "Contacta con ventas para hablar de operaciones de congresos, acceso a la demo y el panel de Multiticketing",
+      "keywords": ["contactar con ventas", "operaciones de congresos", "demo"]
     },
     "eyebrow": "Contacto de ventas",
     "headline": "Hablemos de tu próximo evento",

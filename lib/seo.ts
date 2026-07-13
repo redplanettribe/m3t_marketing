@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import { siteConfig } from "@/config/site"
-import { locales, type Locale } from "@/i18n/routing"
+import { locales, defaultLocale, type Locale } from "@/i18n/routing"
 
 const OG_LOCALES: Record<Locale, string> = {
   en: "en_US",
@@ -29,10 +29,10 @@ export function generateSEO({
 }: SEOProps): Metadata {
   const seoTitle = title ? `${title} | ${siteConfig.name}` : siteConfig.name
   const seoUrl = `${siteConfig.url}/${locale}${path}`
-  const allKeywords = [...(siteConfig.keywordsByLocale[locale] ?? siteConfig.keywords), ...keywords]
+  const allKeywords = [...new Set([...(siteConfig.keywordsByLocale[locale] ?? siteConfig.keywords), ...keywords])]
 
   return {
-    title: seoTitle,
+    title: { absolute: seoTitle },
     description,
     ...(allKeywords.length > 0 ? { keywords: allKeywords } : {}),
     openGraph: {
@@ -53,7 +53,10 @@ export function generateSEO({
     },
     alternates: {
       canonical: seoUrl,
-      languages: Object.fromEntries(locales.map((loc) => [loc, `${siteConfig.url}/${loc}${path}`])),
+      languages: {
+        ...Object.fromEntries(locales.map((loc) => [loc, `${siteConfig.url}/${loc}${path}`])),
+        "x-default": `${siteConfig.url}/${defaultLocale}${path}`,
+      },
     },
     twitter: {
       card: "summary_large_image",

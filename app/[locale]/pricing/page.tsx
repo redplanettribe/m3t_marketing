@@ -21,7 +21,7 @@ export async function generateMetadata({
     title: t("title"),
     description: t("description"),
     path: "/pricing",
-    keywords: ["conference pricing", "enterprise pricing", "event platform pricing"],
+    keywords: t.raw("keywords") as string[],
   })
 }
 

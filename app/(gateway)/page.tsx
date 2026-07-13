@@ -7,10 +7,15 @@ export const metadata: Metadata = {
   title: siteConfig.name,
   description: siteConfig.description,
   alternates: {
+    canonical: `${siteConfig.url}/en/`,
     languages: {
       en: `${siteConfig.url}/en/`,
       es: `${siteConfig.url}/es/`,
     },
+  },
+  robots: {
+    index: false,
+    follow: true,
   },
 }
 

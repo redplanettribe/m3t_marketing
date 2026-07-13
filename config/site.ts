@@ -18,6 +18,8 @@ export const siteConfig = {
     en: [
       "conference operations platform",
       "conference platform",
+      "event organizing system",
+      "event organizing platform",
       "event operations",
       "attendee experience",
       "event analytics",
@@ -26,6 +28,8 @@ export const siteConfig = {
     es: [
       "plataforma de operaciones para congresos",
       "plataforma para congresos",
+      "sistema de organización de eventos",
+      "plataforma de organización de eventos",
       "operaciones de eventos",
       "experiencia del asistente",
       "análisis de eventos",

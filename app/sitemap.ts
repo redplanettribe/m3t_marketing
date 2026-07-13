@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next"
 import { siteConfig } from "@/config/site"
-import { locales } from "@/i18n/routing"
+import { locales, defaultLocale } from "@/i18n/routing"
 
 export const dynamic = "force-static"
 
@@ -20,9 +20,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency,
       priority,
       alternates: {
-        languages: Object.fromEntries(
-          locales.map((loc) => [loc, `${siteConfig.url}/${loc}${path === "/" ? "/" : path}`]),
-        ),
+        languages: {
+          ...Object.fromEntries(
+            locales.map((loc) => [loc, `${siteConfig.url}/${loc}${path === "/" ? "/" : path}`]),
+          ),
+          "x-default": `${siteConfig.url}/${defaultLocale}${path === "/" ? "/" : path}`,
+        },
       },
     })),
   )

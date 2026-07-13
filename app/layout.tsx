@@ -1,12 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
 import "./globals.css"
 import { siteConfig } from "@/config/site"
-import { websiteSchema } from "@/lib/schema"
-import { AccessibilitySkipLinks } from "@/components/accessibility-skip-links"
-
-const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -68,20 +63,5 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  return (
-    <html lang="en" className={inter.className} suppressHydrationWarning>
-      <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(websiteSchema),
-          }}
-        />
-      </head>
-      <body className="min-h-screen bg-background font-sans antialiased">
-        <AccessibilitySkipLinks />
-        {children}
-      </body>
-    </html>
-  )
+  return children
 }
