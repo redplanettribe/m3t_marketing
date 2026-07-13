@@ -5,10 +5,7 @@ import { HeroSection } from "@/components/marketing/hero-section"
 import { ProblemsSection } from "@/components/marketing/problems-section"
 import { SolutionIntroSection } from "@/components/marketing/solution-intro-section"
 // import { JourneyLoopSection } from "@/components/marketing/journey-loop-section"
-import { AnalyticsLiveOpsSection } from "@/components/marketing/analytics-live-ops-section"
-import { IntegrationsSection } from "@/components/marketing/integrations-section"
-import { SocialProofSection } from "@/components/marketing/social-proof-section"
-import { GdgBandSection } from "@/components/marketing/gdg-band-section"
+import { ProductHighlightsSection } from "@/components/marketing/product-highlights-section"
 import { FinalCtaSection } from "@/components/marketing/final-cta-section"
 
 export const metadata = generateSEO({
@@ -32,10 +29,7 @@ export default function HomePage() {
       <ProblemsSection />
       <SolutionIntroSection />
       {/* <JourneyLoopSection /> */}
-      <AnalyticsLiveOpsSection />
-      <IntegrationsSection />
-      <SocialProofSection />
-      <GdgBandSection />
+      <ProductHighlightsSection />
       <FinalCtaSection />
       <MarketingFooter />
     </main>

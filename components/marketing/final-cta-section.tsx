@@ -6,7 +6,7 @@ import { DemoModal } from "@/components/marketing/demo-modal"
 
 export function FinalCtaSection() {
   return (
-    <Section className="bg-[var(--surface-2)]">
+    <Section id="next-step" className="bg-[var(--surface-2)]">
       <Container>
         <div className="rounded-[10px] border border-[var(--border)] bg-[var(--surface)] px-6 py-10 sm:px-10">
           <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
