@@ -2,6 +2,7 @@
 
 import * as React from "react"
 import Image from "next/image"
+import { useTranslations } from "next-intl"
 import { cn } from "@/lib/utils"
 
 function usePrefersReducedMotion() {
@@ -20,6 +21,7 @@ function usePrefersReducedMotion() {
 
 export function HeroMedia({ className }: { className?: string }) {
   const reducedMotion = usePrefersReducedMotion()
+  const t = useTranslations("Home.hero")
 
   return (
     <div className={cn("relative overflow-hidden rounded-[10px] border border-[var(--border)] bg-[var(--surface)]", className)}>
@@ -27,7 +29,7 @@ export function HeroMedia({ className }: { className?: string }) {
         <div className="relative aspect-[16/10]">
           <Image
             src="/opengraph-image.png"
-            alt="Multiticketing control tower and attendee journey"
+            alt={t("imageAlt")}
             fill
             sizes="(min-width: 1024px) 560px, 100vw"
             className="object-cover"
@@ -42,7 +44,7 @@ export function HeroMedia({ className }: { className?: string }) {
           loop
           playsInline
           preload="metadata"
-          aria-label="Product journey loop preview video"
+          aria-label={t("videoAlt")}
         >
           <source src="/hero-loop.mp4" type="video/mp4" />
         </video>

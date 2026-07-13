@@ -1,25 +1,34 @@
 import type { Metadata } from "next"
 import { siteConfig } from "@/config/site"
+import { locales, type Locale } from "@/i18n/routing"
+
+const OG_LOCALES: Record<Locale, string> = {
+  en: "en_US",
+  es: "es_ES",
+}
 
 interface SEOProps {
+  locale: Locale
   title?: string
   description?: string
   image?: string
-  url?: string
+  /** Path within a locale, e.g. "/pricing". Omit for the locale's home page. */
+  path?: string
   noIndex?: boolean
   keywords?: string[]
 }
 
 export function generateSEO({
+  locale,
   title,
   description = siteConfig.description,
   image = siteConfig.ogImage,
-  url,
+  path = "",
   noIndex = false,
   keywords = [],
-}: SEOProps = {}): Metadata {
+}: SEOProps): Metadata {
   const seoTitle = title ? `${title} | ${siteConfig.name}` : siteConfig.name
-  const seoUrl = url ? `${siteConfig.url}${url}` : siteConfig.url
+  const seoUrl = `${siteConfig.url}/${locale}${path}`
   const allKeywords = [...siteConfig.keywords, ...keywords]
 
   return {
@@ -28,7 +37,7 @@ export function generateSEO({
     ...(allKeywords.length > 0 ? { keywords: allKeywords } : {}),
     openGraph: {
       type: "website",
-      locale: "en_US",
+      locale: OG_LOCALES[locale],
       url: seoUrl,
       title: seoTitle,
       description,
@@ -44,6 +53,7 @@ export function generateSEO({
     },
     alternates: {
       canonical: seoUrl,
+      languages: Object.fromEntries(locales.map((loc) => [loc, `${siteConfig.url}/${loc}${path}`])),
     },
     twitter: {
       card: "summary_large_image",

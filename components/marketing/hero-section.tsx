@@ -1,3 +1,4 @@
+import { useLocale, useTranslations } from "next-intl"
 import { siteConfig } from "@/config/site"
 import { Container } from "@/components/ui/container"
 import { Section } from "@/components/ui/section"
@@ -6,6 +7,9 @@ import { DemoModal } from "@/components/marketing/demo-modal"
 import { HeroMedia } from "@/components/marketing/hero-media"
 
 export function HeroSection() {
+  const t = useTranslations("Home.hero")
+  const locale = useLocale()
+
   return (
     <Section className="pt-10 lg:pt-14">
       <Container>
@@ -19,21 +23,15 @@ export function HeroSection() {
 
           <div className="absolute inset-0 flex items-end sm:items-center">
             <div className="max-w-xl px-6 py-8 sm:px-10 sm:py-12 lg:px-12">
-              <p className="text-xs font-semibold uppercase tracking-wide text-white/70">
-                Tired of drowning in event admin?
-              </p>
+              <p className="text-xs font-semibold uppercase tracking-wide text-white/70">{t("eyebrow")}</p>
               <h1 className="mt-3 text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-6xl">
-                Organize events with the system you deserve.
+                {t("headline")}
               </h1>
-              <p className="mt-5 text-pretty text-base text-white/80 sm:text-lg">
-                This is the conference operations platform that replaces your Frankenstein stack of ticketing,
-                forms, check-in tools, and spreadsheets - so event day stays low-stress, runs efficiently, and
-                reporting is effortless.
-              </p>
+              <p className="mt-5 text-pretty text-base text-white/80 sm:text-lg">{t("subhead")}</p>
 
               <div className="mt-7 flex flex-col gap-3 sm:flex-row">
                 <CTAButton href={siteConfig.dashboardUrl} variant="primary" size="lg">
-                  Start
+                  {t("start")}
                 </CTAButton>
                 <DemoModal
                   trigger={
@@ -42,17 +40,17 @@ export function HeroSection() {
                       size="lg"
                       className="border-white/50 text-white hover:bg-white/10"
                     >
-                      Watch demo
+                      {t("watchDemo")}
                     </CTAButton>
                   }
                 />
                 <CTAButton
-                  href="/contact"
+                  href={`/${locale}/contact`}
                   variant="ghost"
                   size="lg"
                   className="text-white/80 hover:bg-white/10 hover:text-white"
                 >
-                  Contact
+                  {t("contact")}
                 </CTAButton>
               </div>
             </div>

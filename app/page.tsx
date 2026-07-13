@@ -1,37 +1,37 @@
-import { generateSEO } from "@/lib/seo"
-import { MarketingFooter } from "@/components/marketing/marketing-footer"
-import { MarketingNav } from "@/components/marketing/marketing-nav"
-import { HeroSection } from "@/components/marketing/hero-section"
-import { ProblemsSection } from "@/components/marketing/problems-section"
-import { SolutionIntroSection } from "@/components/marketing/solution-intro-section"
-// import { JourneyLoopSection } from "@/components/marketing/journey-loop-section"
-import { ProductHighlightsSection } from "@/components/marketing/product-highlights-section"
-import { FinalCtaSection } from "@/components/marketing/final-cta-section"
+import type { Metadata } from "next"
+import Link from "next/link"
+import { siteConfig } from "@/config/site"
+import { LocaleGatewayRedirect } from "@/components/locale-gateway-redirect"
 
-export const metadata = generateSEO({
-  description:
-    "All-in-one conference operations platform that replaces fragmented tools and improves attendee satisfaction end-to-end.",
-  keywords: [
-    "conference operations platform",
-    "conference platform",
-    "event operations",
-    "attendee experience",
-    "event analytics",
-    "check-in analytics",
-  ],
-})
+export const metadata: Metadata = {
+  title: siteConfig.name,
+  description: siteConfig.description,
+  alternates: {
+    languages: {
+      en: `${siteConfig.url}/en/`,
+      es: `${siteConfig.url}/es/`,
+    },
+  },
+}
 
-export default function HomePage() {
+export default function LocaleGatewayPage() {
   return (
-    <main id="main-content">
-      <MarketingNav />
-      <HeroSection />
-      <ProblemsSection />
-      <SolutionIntroSection />
-      {/* <JourneyLoopSection /> */}
-      <ProductHighlightsSection />
-      <FinalCtaSection />
-      <MarketingFooter />
+    <main id="main-content" className="flex min-h-screen items-center justify-center px-6 text-center">
+      <LocaleGatewayRedirect />
+      <div>
+        <p className="text-sm font-semibold text-[var(--text-muted)]">{siteConfig.shortName}</p>
+        <h1 className="mt-2 text-2xl font-semibold tracking-tight text-[var(--text)]">
+          Choose your language / Elige tu idioma
+        </h1>
+        <div className="mt-6 flex justify-center gap-6 text-base font-semibold">
+          <Link href="/en/" className="text-[var(--brand)] hover:text-[var(--brand-hover)]">
+            English
+          </Link>
+          <Link href="/es/" className="text-[var(--brand)] hover:text-[var(--brand-hover)]">
+            Español
+          </Link>
+        </div>
+      </div>
     </main>
   )
 }
