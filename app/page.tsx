@@ -2,7 +2,9 @@ import { generateSEO } from "@/lib/seo"
 import { MarketingFooter } from "@/components/marketing/marketing-footer"
 import { MarketingNav } from "@/components/marketing/marketing-nav"
 import { HeroSection } from "@/components/marketing/hero-section"
-import { JourneyLoopSection } from "@/components/marketing/journey-loop-section"
+import { ProblemsSection } from "@/components/marketing/problems-section"
+import { SolutionIntroSection } from "@/components/marketing/solution-intro-section"
+// import { JourneyLoopSection } from "@/components/marketing/journey-loop-section"
 import { AnalyticsLiveOpsSection } from "@/components/marketing/analytics-live-ops-section"
 import { IntegrationsSection } from "@/components/marketing/integrations-section"
 import { SocialProofSection } from "@/components/marketing/social-proof-section"
@@ -27,7 +29,9 @@ export default function HomePage() {
     <main id="main-content">
       <MarketingNav />
       <HeroSection />
-      <JourneyLoopSection />
+      <ProblemsSection />
+      <SolutionIntroSection />
+      {/* <JourneyLoopSection /> */}
       <AnalyticsLiveOpsSection />
       <IntegrationsSection />
       <SocialProofSection />
