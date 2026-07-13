@@ -10,8 +10,8 @@ import { siteConfig } from "@/config/site"
 import { Container } from "@/components/ui/container"
 import { CTAButton } from "@/components/ui/cta-button"
 import { DemoModal } from "@/components/marketing/demo-modal"
-import { locales } from "@/i18n/routing"
-import { LOCALE_STORAGE_KEY } from "@/lib/locale-preference"
+import { locales, stripLocaleFromPathname } from "@/i18n/routing"
+import { setStoredLocale } from "@/lib/locale-preference"
 
 export function MarketingNav() {
   const [isScrolled, setIsScrolled] = React.useState(false)
@@ -26,7 +26,7 @@ export function MarketingNav() {
     return () => window.removeEventListener("scroll", onScroll)
   }, [])
 
-  const pathWithoutLocale = pathname.replace(new RegExp(`^/(${locales.join("|")})`), "") || "/"
+  const pathWithoutLocale = stripLocaleFromPathname(pathname)
 
   return (
     <header
@@ -56,11 +56,7 @@ export function MarketingNav() {
               <Link
                 key={loc}
                 href={`/${loc}${pathWithoutLocale === "/" ? "" : pathWithoutLocale}`}
-                onClick={() => {
-                  if (typeof window !== "undefined") {
-                    window.localStorage.setItem(LOCALE_STORAGE_KEY, loc)
-                  }
-                }}
+                onClick={() => setStoredLocale(loc)}
                 aria-current={loc === locale ? "true" : undefined}
                 className={cn(
                   "rounded-md px-1.5 py-1 uppercase",

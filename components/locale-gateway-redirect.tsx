@@ -3,26 +3,22 @@
 import { useEffect } from "react"
 import { useRouter } from "next/navigation"
 import { locales, defaultLocale, type Locale } from "@/i18n/routing"
-import { LOCALE_STORAGE_KEY } from "@/lib/locale-preference"
+import { getStoredLocale, setStoredLocale } from "@/lib/locale-preference"
 
-function isLocale(value: string): value is Locale {
-  return (locales as readonly string[]).includes(value)
+function detectBrowserLocale(): Locale | undefined {
+  const browserLanguages = navigator.languages ?? [navigator.language]
+  return browserLanguages
+    .map((lang) => lang.slice(0, 2).toLowerCase())
+    .find((lang): lang is Locale => (locales as readonly string[]).includes(lang))
 }
 
 export function LocaleGatewayRedirect() {
   const router = useRouter()
 
   useEffect(() => {
-    const stored = window.localStorage.getItem(LOCALE_STORAGE_KEY)
-    if (stored && isLocale(stored)) {
-      router.replace(`/${stored}/`)
-      return
-    }
-
-    const browserLanguages = navigator.languages ?? [navigator.language]
-    const detected = browserLanguages.map((lang) => lang.slice(0, 2).toLowerCase()).find(isLocale)
-
-    router.replace(`/${detected ?? defaultLocale}/`)
+    const locale = getStoredLocale() ?? detectBrowserLocale() ?? defaultLocale
+    setStoredLocale(locale)
+    router.replace(`/${locale}/`)
   }, [router])
 
   return null
