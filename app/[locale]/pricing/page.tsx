@@ -6,6 +6,7 @@ import { Container } from "@/components/ui/container"
 import { Section } from "@/components/ui/section"
 import { MarketingNav } from "@/components/marketing/marketing-nav"
 import { MarketingFooter } from "@/components/marketing/marketing-footer"
+import { CTAButton } from "@/components/ui/cta-button"
 
 export async function generateMetadata({
   params,
@@ -55,6 +56,12 @@ export default async function PricingPage({ params }: { params: Promise<{ locale
                 <p className="text-sm font-semibold text-[var(--text)]">{t("gdg.title")}</p>
                 <p className="mt-2 text-sm leading-relaxed text-[var(--text-muted)]">{t("gdg.description")}</p>
               </div>
+            </div>
+
+            <div className="mt-10">
+              <CTAButton href={`/${locale}/contact`} variant="primary" size="lg">
+                {t("cta")}
+              </CTAButton>
             </div>
           </div>
         </Container>

@@ -120,7 +120,11 @@
     "meta": {
       "title": "Pricing",
       "description": "Enterprise pricing for professional conference producers. Tiered per event and attendee headcount",
-      "keywords": ["conference pricing", "enterprise pricing", "event platform pricing"]
+      "keywords": [
+        "conference pricing",
+        "enterprise pricing",
+        "event platform pricing"
+      ]
     },
     "eyebrow": "Pricing",
     "headline": "Enterprise, sales-led",
@@ -132,13 +136,18 @@
     "gdg": {
       "title": "GDG chapters",
       "description": "Offered free worldwide as a secondary program. It does not define the primary commercial model"
-    }
+    },
+    "cta": "Contact sales"
   },
   "Contact": {
     "meta": {
       "title": "Contact",
       "description": "Contact sales to discuss conference operations, demo access, and the Multiticketing dashboard",
-      "keywords": ["contact sales", "conference operations", "demo"]
+      "keywords": [
+        "contact sales",
+        "conference operations",
+        "demo"
+      ]
     },
     "eyebrow": "Contact sales",
     "headline": "Let's talk about your next event",

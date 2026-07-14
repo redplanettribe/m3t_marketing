@@ -120,7 +120,11 @@
     "meta": {
       "title": "Precios",
       "description": "Precios empresariales para organizadores profesionales de congresos. Escalonados por evento y número de asistentes",
-      "keywords": ["precios para congresos", "precios empresariales", "precios de plataforma de eventos"]
+      "keywords": [
+        "precios para congresos",
+        "precios empresariales",
+        "precios de plataforma de eventos"
+      ]
     },
     "eyebrow": "Precios",
     "headline": "Empresarial, con equipo comercial",
@@ -132,13 +136,18 @@
     "gdg": {
       "title": "Capítulos de GDG",
       "description": "Se ofrece gratis en todo el mundo como programa secundario. No define el modelo comercial principal"
-    }
+    },
+    "cta": "Contactar con ventas"
   },
   "Contact": {
     "meta": {
       "title": "Contacto",
       "description": "Contacta con ventas para hablar de operaciones de congresos, acceso a la demo y el panel de Multiticketing",
-      "keywords": ["contactar con ventas", "operaciones de congresos", "demo"]
+      "keywords": [
+        "contactar con ventas",
+        "operaciones de congresos",
+        "demo"
+      ]
     },
     "eyebrow": "Contacto de ventas",
     "headline": "Hablemos de tu próximo evento",
