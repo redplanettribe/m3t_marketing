@@ -137,7 +137,8 @@
       "title": "Capítulos de GDG",
       "description": "Se ofrece gratis en todo el mundo como programa secundario. No define el modelo comercial principal"
     },
-    "cta": "Contactar con ventas"
+    "cta": "Contactar con ventas",
+    "imageAlt": "Captura de pantalla del panel de control y la app de organizador de Multiticketing"
   },
   "Contact": {
     "meta": {

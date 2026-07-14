@@ -137,7 +137,8 @@
       "title": "GDG chapters",
       "description": "Offered free worldwide as a secondary program. It does not define the primary commercial model"
     },
-    "cta": "Contact sales"
+    "cta": "Contact sales",
+    "imageAlt": "Screenshot of the Multiticketing dashboard and organizer app"
   },
   "Contact": {
     "meta": {
