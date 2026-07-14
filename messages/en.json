@@ -154,6 +154,7 @@
     "headline": "Let's talk about your next event",
     "subhead": "Email us with a quick overview of your conference, timeline, and operational pain points",
     "emailCta": "Email {email}",
-    "start": "Start"
+    "start": "Start",
+    "imageAlt": "Screenshot of the Multiticketing attendee app"
   }
 }

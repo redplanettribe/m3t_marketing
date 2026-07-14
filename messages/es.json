@@ -154,6 +154,7 @@
     "headline": "Hablemos de tu próximo evento",
     "subhead": "Escríbenos con un resumen rápido de tu congreso, plazos y puntos de dolor operativos",
     "emailCta": "Escribir a {email}",
-    "start": "Empezar"
+    "start": "Empezar",
+    "imageAlt": "Captura de pantalla de la app de asistentes de Multiticketing"
   }
 }
